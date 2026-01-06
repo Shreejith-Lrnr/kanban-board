@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Vite + React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Stop starting, start finishing! This project is a modern Kanban board application built with Vite, React, and TypeScript. It is designed to help you manage tasks efficiently and focus on completing them. With a sleek interface and robust features, this project is perfect for teams and individuals alike.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Customizable Kanban Boards**: Create and manage tasks in a visually intuitive way.
+- **Drag-and-Drop Functionality**: Easily move tasks between columns.
+- **Dynamic Card Management**: Add, edit, and delete cards seamlessly.
+- **Burn Barrel**: Archive tasks that are no longer needed.
+- **Responsive Design**: Works beautifully on both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to get started:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Prerequisites**: Ensure you have Node.js v16+ and npm (or yarn) installed.
+2. **Install Dependencies**: Run `npm install` to install the required packages.
+3. **Run Development Server**: Use `npm run dev` to start the development server.
+4. **Build for Production**: Execute `npm run build` to create a production-ready build.
+5. **Preview Production Build**: Run `npm run preview` to preview the production build locally.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Enjoy building and managing your tasks with this powerful Kanban board application!
