@@ -1,4 +1,4 @@
-# Vite + React + TypeScript
+# Kanban Board
 
 Stop starting, start finishing! This project is a modern Kanban board application built with Vite, React, and TypeScript. It is designed to help you manage tasks efficiently and focus on completing them. With a sleek interface and robust features, this project is perfect for teams and individuals alike.
 
